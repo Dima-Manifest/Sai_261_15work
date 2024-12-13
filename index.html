@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/f2cc8d7f38.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <section class="list">
+   
+    <h1 class="H1">weblance</h1>
+    <ul class="list__link">
+      <li class="list__link-item"><i class="fa-solid fa-file"></i><p class="list-p">Портфолио</p></li>
+      <li class="list__link-item"><i class="fa-solid fa-comment "></i><p class="list-p">Общение</p></li>
+      <li class="list__link-item right"><i class="fa-solid fa-user"></i><p class="list-p">Профиль</p></li>
+      <li class="list__link-item"><i class="fa-solid fa-paperclip"></i><p class="list-p">Cсылки</p></li>
+      <li class="list__link-item"><i class="fa-solid fa-gear"></i><p class="list-p">Настройки</p></li>
+    </ul>
+ 
+  </section>
+<section  class="people">
+  <div class="info">
+    <div class="searh">
+      <div class="search__block">
+        <input class="serch-item" type="text" placeholder="Найти проект или заказчика" >
+      </div>
+      <div class="comunication">
+      <ul class="info__list">
+        <li class="info__list-item"><i class="fa-solid fa-bell"></i></li>
+        <li class="info__list-item"><i class="fa-solid fa-envelope"></i></li>
+        <li class="info__list-item"><i class="fa-solid fa-user"></i></li>
+      </ul>
+      <img src="img/Say.jpg" alt="" class="img1">
+      <p>Сай Дмитрий</p>
+    </div>
+    </div>
+  </div>
+  <div class="info-form">
+    <div class="info-people">
+<div class="people-block"><h2 class="people-h">Настройки профиля</h2><p class="people-p">Заполните информацию о себе</p></div>
+<div class="people-block"><h2 class="people-h">Уведомления</h2><p class="people-p">Прочтите сообщения от заказчиков</p></div>
+<div class="people-block"><h2 class="people-h">Данные о проектах</h2><p class="people-p">Просмотрите статус выполнения проектов</p></div>
+<div class="people-block"><h2 class="people-h">Пароль и безопасность</h2><p class="people-p">Задайте или измените пароль</p></div>
+    </div>
+<form action="#" class="form">
+      <div class="files">
+        <img src="img/men.jpg" alt="" class="foto">
+        <div class="text"><h2 class="people-h">Загрузить новое фото</h2><p class="people-p">Вы можете загрузить изображение размером не более 10МБ</p></div>
+       
+        <div class="form-file">
+         
+          <input type="file" id="photo" accept="image/jpeg, image/png, image/webp">
+        </div>
+        <button class="button"><a class="button-h">Сохранить</a> </button>
+      </div>
+      <div class="choice">
+<H2 class="my-info">Заполните инфломацию о себе</H2>
+<div class="form__block">
+  <div class="form__block-item">
+    <label for="lname" class="shrift">Имя Фамилия</label>
+    <input type="text" id="lname" placeholder="Сай Иванов" required maxlength="36" class="input">
+  </div>
+  <div class="form__block-item">
+    <label for="email" class="shrift">Email*</label>
+      <input type="email" name="email" id="email" placeholder="mail@mail.ru" class="input">
+  </div>
+  <div class="form__block-item">
+<label for="salary" class="shrift" >Страна</label>
+    <select name="salary" id="salary" class="select">
+    <option text="Россия">Россия</option>
+    <option text="Белоруссия">Белоруссия</option>
+    <option text="Казахстан">Казахстан</option>
+  </select>
+</div>
+  <div class="form__block-item">
+  <label for="salary">Город</label>
+  <select name="salary" id="salary" class="select">
+  <option value="Москва">Москва</option>
+  <option value="Екатеринбург">Екатеринбург</option>
+  <option value="Пермь">Пермь</option>
+</select>
+</div>
+<div class="form__block-item line">
+<label for="company" class="shrift ">Адрес проживания</label>
+    <input type="text" id="company" placeholder="Космонавтов 29 кв.35" class="input int ">
+  </div>
+  <div class="choise">
+    <h2 class="shrift chor">Отметьте какими технологиями/языками вы владеетеHTML</h2>
+    <div class="form-checkbox">
+      <label class="label">
+        <input type="checkbox" class="check-box" checked >
+        <span class="c-style"></span>
+        CSS
+        </label>
+        <label class="label">
+          <input type="checkbox" class="check-box" checked >
+          <span class="c-style"></span>
+          JavaScript
+          </label>
+          <label class="label">
+            <input type="checkbox" class="check-box" checked >
+            <span class="c-style"></span>
+            SASS
+            </label class="label">
+            <label class="label">
+              <input type="checkbox" class="check-box"  >
+              <span class="c-style"></span>
+              React
+              </label>
+              <label class="label">
+                <input type="checkbox" class="check-box"  >
+                <span class="c-style"></span>
+                Phyton
+                </label>
+                <label class="label">
+                  <input type="checkbox" class="check-box"  >
+                  <span class="c-style"></span>
+                  Wordpress
+                  </label>
+                  <label  class="label">
+                    <input type="checkbox" class="check-box"  >
+                    <span class="c-style"></span>
+                    Webpack
+                    </label>
+                    <label class="label" >
+                      <input type="checkbox" class="check-box"  >
+                      <span class="c-style"></span>
+                      Gulp
+                      </label>
+                      <label  class="label">
+                        <input type="checkbox" class="check-box"  >
+                        <span class="c-style"></span>
+                        Node
+                        </label>
+                        
+      </div>
+  </div>
+  <div class="form__block-item feedback">
+    <label for="feedback" class="shrift">Ваши компетенции</label>
+      <input  name="feedback" id="feedback" placeholder="Опишите какими навыками вы владеете, какие проекты и за какое время вы выполнили" class="input feedback">
+  </div>
+</div>
+<button class="safe"><a class="button-h">Обновить информацию</a> </button>
+</div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+      </div>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>

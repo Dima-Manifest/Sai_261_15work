@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Rubik', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list{
+  width: 15.5%;
+  height: 100vh;
+ padding-top:15px ;
+  background-color: #455cc6 ;
+  list-style: none;
+ 
+  color: white;
+}
+.H1{
+margin:35PX;
+letter-spacing: 3PX;
+font-weight:900;
+text-align: center;
+
+}
+
+.list__link{
+  list-style: none;
+  text-align: left;
+  margin-left:23% ;
+}
+
+.list__link-item{
+  display: flex;
+  margin-bottom: 12%;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.right{
+  display: flex;
+ 
+  padding-left: 15%;
+  background-color:#516cd5 ;
+  width: 60%;
+  height: 6vh;
+  align-items: center;
+}
+.list-p{
+  margin-left: 10px;
+}
+.people{
+  width:84.5%;
+  background-color: white;
+
+}
+
+ 
+ 
+ .searh{
+  display: flex;
+  background-color: white;
+  height: 3vh;
+  padding: 1% 3% 2% 3%;
+
+ }
+.search__block{
+  width: 75%;
+
+}
+.serch-item{
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 1%;
+  width: 25vw;
+}
+.comunication{
+  display: flex;
+  width: 25%;
+}
+.info__list{
+  display: flex;
+  list-style: none;
+  
+}
+.info__list-item{
+  border: 1px #a7a7a7 solid;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 100%;
+ 
+}
+
+.foto{
+  width: 8%;
+  border-radius: 100%;
+}
+.img1{
+  border: 1px #e0e0e0 solid;
+  margin-right: 20px;
+  border-radius: 100%;
+  width: 8%;
+}
+.info-form{
+  background-color: #f8f9fe;
+  display: flex;
+ 
+  
+}
+.info-people{
+  width:21%;
+  height: 100vh;
+
+  
+}
+.people-block {
+  margin: 10px;
+  box-shadow: 8px 4px 16px 0px rgba(34, 60, 80, 0.2);
+  padding: 7.5%;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 6%;
+}
+.people-p{
+  color: #a7a7a7;
+
+}
+.info-form{
+padding:1.3% 2.4%;
+}
+.people-h{
+  color: #393939;
+  font-size: 22px;
+}
+
+.form{
+  margin: 0.8% 0.1% 0.8% 3.5%;
+  width: 75%;
+}
+.files{
+  background-color:white ;
+  display: flex;
+  padding: 1.5%;
+  border-radius: 15px ;
+  box-shadow: 8px 4px 16px 0px rgba(34, 60, 80, 0.2);
+ align-items: center;
+ margin-bottom: 3%;
+}
+
+.text{
+  margin: 0% 2%;
+  width: 30;
+}
+
+.form-file{
+  border: 1px solid #bdc2e0 ;
+  padding: 1%;
+  border-radius: 10px;
+  width: 25%;
+}
+.button{
+  color: white;
+  background-color: #455cc6;
+  padding: 1%;
+  border-radius: 5px;
+ margin-left: 4%;
+ width: 14%;
+}
+.button-h{
+text-align: center;
+}
+
+.choice{
+  background-color: white;
+  padding: 2%;
+  border-radius: 15px ;
+  box-shadow: 8px 4px 16px 0px rgba(34, 60, 80, 0.2);
+}
+.my-info{
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.form__block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.form__block-item{
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+height: 8vh;
+ 
+margin: 0 1.5% 1.7% 0;
+}
+.input {
+  
+  border: 1px solid #bdc2e0 ;
+  padding: 2%;
+  border-radius: 10px;
+  height: 37%;
+}
+
+.input:focus,
+.select:focus{
+  border: 1px solid #516cd5
+}
+.int{
+  padding: 17px;
+}
+
+.select
+{
+  border: 1px solid #bdc2e0 ;
+  padding: 2%;
+  border-radius: 10px;
+  height: 65%;
+}
+
+.line, .feedback {
+  width: 100%;
+
+}
+
+.choise{
+  width: 100%;
+  margin-bottom: 2%;
+}
+.check-box{
+  width: 2%;
+}
+
+.safe{
+  color: white;
+  background-color: #455cc6;
+  padding: 1%;
+  border-radius: 5px;
+  width: 23%;
+}
+
+.feedback{
+  height: 14vh;
+  width: 97%;
+  margin-bottom: 0.5%;
+}
+label{
+  margin-bottom: 1.5%;
+}
+.check-box{
+  width: 1px;
+  height: 1px;
+  padding-left: 2px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+.c-style{
+  width: 14px;
+  height: 14px;
+  border: 1px solid #455cc6;
+  border-radius: 4px;
+  position: absolute;
+  transform: translate(-125%, 0%);
+}
+.radio{
+  border-radius: 50%;
+}
+
+
+.check-box:checked +
+.c-style::before{
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color:#455cc6 ;
+  position: absolute;
+  content: "";
+ top: 50%;
+ left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.label{
+  margin-right: 40px;
+  margin-left: 23px;
+}
+  .shrift{
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+.int{margin-bottom: 0px;}
+  .chor{
+    margin-bottom: 1%;
+    font-weight: 400;
+  }
+
+  .form-checkbox{
+    margin-bottom: 5px;
+  }
